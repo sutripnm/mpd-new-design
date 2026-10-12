@@ -1,0 +1,8 @@
+.navbar-menu .active {
+  text-decoration: underline;
+  color: #179B5A;
+}
+
+.navbar-login {
+    color: #179B5A;
+}

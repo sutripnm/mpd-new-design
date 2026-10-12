@@ -1,9 +1,9 @@
-import Navbar from "../../mpd-website/src/components/Navbar"
+import Navbar from "./components/Navbar"
 
 function App() {
 
   return (
-    <p>MPD</p>
+    <Navbar />
   )
 }
 
