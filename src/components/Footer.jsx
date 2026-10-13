@@ -1,4 +1,4 @@
-import "../../styles/landing-page.css"
+import "../styles/landing-page.css"
 
 function Footer() {
   return (

@@ -1,4 +1,4 @@
-import Footer from "../components/landing-page/Footer";
+import Footer from "../components/Footer";
 import RecentSlideCard from "../components/landing-page/RecentSlideCard";
 import ServiceCard from "../components/landing-page/ServiceCard";
 import ShalatCard from "../components/landing-page/ShalatCard";

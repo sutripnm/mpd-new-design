@@ -1,30 +1,45 @@
-import Navbar from "../Navbar";
 import "../../styles/overview.css"
+import overviewData from "../../data/DataOverview";
 
 function OverviewPlace() {
+
   return (
     <main className="mt-10">
-      <section className="flex max-w-7/10 mx-auto gap-3">
-        <div className="image-overview grid gap-3">
-          <div className="w-130 h-85 bg-amber-500 rounded-4xl">
-            <img src="" alt="" />
+      <section className="flex flex-col xl:flex-row max-w-7/10 mx-auto gap-5">
+        <div className="image-overview max-w-[610px] gap-3 flex flex-col">
+
+          <div className="overflow-hidden aspect-[16/9] w-full rounded-4xl ">
+            <img
+              className="w-full h-full object-cover" 
+              src={overviewData[0].image} 
+              alt="Foto MPD Ruang Utama" />
           </div>
-          <div className="flex gap-2">
+          
+          <div className="flex gap-5 w-full">
             <div className="small-image-overview">
-              <img src="" alt="" />
+              <img
+                className="w-full h-full object-cover rounded-2xl" 
+                src={overviewData[0].image} 
+                alt="Foto Ruang Utama tampak depan" />
             </div>
             <div className="small-image-overview">
-              <img src="" alt="" />
+              <img
+                className="w-full h-full object-cover rounded-2xl" 
+                src={overviewData[1].image} 
+                alt="Foto ruang utama tampak samping" />
             </div>
             <div className="small-image-overview">
-              <img src="" alt="" />
+              <img 
+                className="w-full h-full object-cover rounded-2xl"
+                src={overviewData[2].image} 
+                alt="foto ruang utama tampak samping kanan" />
             </div>
           </div>
 
 
         </div>
 
-        <div className="desc-overview">
+        <div className="desc-overview flex-1 min-w-0">
           <h3 className="font-bold">Filter Tempat</h3>
           <h4 className="text-[#179B5A] text-2xl">Fasilitas</h4>
           <p className="text-justify">Dengan luas area lebih dari 500m², 
@@ -38,7 +53,7 @@ function OverviewPlace() {
               odio unde laborum eos quos illum soluta?
           </p>
 
-          <button className="bg-[#179B5A] w-45 h-12 rounded-2xl mt-22 ">Booking Sekarang</button>
+          <button className="bg-[#179B5A] w-45 h-12 rounded-2xl flex-col place-items-end ">Booking Sekarang</button>
         </div>
       </section>
     </main>
