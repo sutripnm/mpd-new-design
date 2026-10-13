@@ -6,7 +6,7 @@ import "../styles/navbar.css"
 function Navbar() {
   return (
     <header className="">
-      <nav className="flex pt-2 gap-3 max-w-7/10 mx-auto border-b-1 border-gray-300">
+      <nav className="flex pt-2 gap-3 max-w-7/10 mx-auto border-b-1 border-gray-350">
         <div className="flex grow justify-between items-center mx-auto-">
 
           {/*===============MENU===============*/}
