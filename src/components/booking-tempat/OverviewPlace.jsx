@@ -4,7 +4,7 @@ import overviewData from "../../data/DataOverview";
 function OverviewPlace() {
 
   return (
-    <main className="mt-10">
+    <main className="mt-15">
       <section className="flex flex-col xl:flex-row max-w-7/10 mx-auto gap-5">
         <div className="image-overview max-w-[610px] gap-3 flex flex-col">
 
@@ -39,7 +39,7 @@ function OverviewPlace() {
 
         </div>
 
-        <div className="desc-overview flex-1 min-w-0">
+        <div className="desc-overview flex-1 min-w-0 flex flex-col gap-3">
           <h3 className="font-bold">Filter Tempat</h3>
           <h4 className="text-[#179B5A] text-2xl">Fasilitas</h4>
           <p className="text-justify">Dengan luas area lebih dari 500m², 
@@ -52,8 +52,14 @@ function OverviewPlace() {
               dolorem ab reiciendis quaerat ipsa, eum perspiciatis possimus 
               odio unde laborum eos quos illum soluta?
           </p>
+          <ol className="list-disc mx-5 font-semibold">
+            <li>AC 2PK 5 unit</li>
+            <li>Kursi dan Meja Pembicara</li>
+            <li>Tirai Pemisah</li>
+            <li>Projector</li>
+          </ol>
 
-          <button className="bg-[#179B5A] w-45 h-12 rounded-2xl flex-col place-items-end ">Booking Sekarang</button>
+          <button className="bg-[#179B5A] w-45 h-12 rounded-2xl xl:mt-auto text-white">Booking Sekarang</button>
         </div>
       </section>
     </main>

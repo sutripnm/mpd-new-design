@@ -1,0 +1,57 @@
+/* src/styles/calender.css */
+
+.react-calendar {
+  width: 100% !important;
+  border: 1px solid black !important;
+  background: white !important;
+  border-radius: 1rem !important;
+  padding: 1rem !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-color: #334155;
+}
+
+/* Header / Navigasi Bulan */
+.react-calendar__navigation {
+  background-color: #179B5A;
+  border-radius: 0.75rem;
+  padding: 6px;
+  margin-bottom: 1rem;
+}
+.react-calendar__navigation button {
+  color: white !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  background: none;
+}
+.react-calendar__navigation button:hover {
+  background-color: #127c47 !important;
+  border-radius: 0.5rem;
+}
+
+/* Nama Hari (Mon, Tue, dll) */
+.react-calendar__month-view__weekdays {
+  color: #179B5A;
+  font-weight: bold;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none !important;
+}
+
+/* Kotak Tanggal / Tile */
+.react-calendar__tile {
+  padding: 10px 0 !important;
+  border-radius: 0.5rem;
+  color: #334155;
+  font-weight: 500;
+}
+.react-calendar__tile:hover {
+  background-color: #e6f7ef !important;
+  color: #179B5A !important;
+}
+.react-calendar__tile--active {
+  background-color: #179B5A !important;
+  color: white !important;
+  border-radius: 0.5rem !important;
+}
