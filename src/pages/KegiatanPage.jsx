@@ -11,7 +11,7 @@ function KegiatanPage() {
       <header>
         <HeaderKegiatanPage />
       </header>
-      <main className="grid grid-cols-1 lg:grid-cols-2 gap-3 max-w-9/10 mx-auto mt-5 flex-col lg:flex-row">
+      <main className="grid grid-cols-1 lg:grid-cols-2 gap-3 max-w-9/10 mx-auto mt-5">
         <div className="flex-1 min-w-0">
           <KajianRutinSection />
         </div>

@@ -1,9 +1,11 @@
 function AgendaCard({ agenda }) {
 
   return (
-    <article className="flex items-center justify-center px-3 py-3 mb-5 gap-5">
+    <article className="flex flex-col lg:flex-row items-center justify-center px-3 py-3 mb-5 gap-5 
+                        w-full max-w-[4/5] min-h-[220px] max-w-[620px]
+                        ">
 
-      <div className="rounded-2xl w-[250px] h-[180px] overflow-hidden">
+      <div className="rounded-2xl w-full max-w-[250px] h-[180px] aspect-[4/3] overflow-hidden">
         <img className="object-cover w-full h-full"
           src={agenda.gambar} 
           alt="Foto Ustadz" 
@@ -20,7 +22,7 @@ function AgendaCard({ agenda }) {
         <h4 className="font-bold text-sm text-[#179B5A]  ">
           Imam : {agenda.imam}
         </h4>
-          <div className="flex border-2 border-double border-[#74C29D] rounded-2xl items-center justify-center mt-2 px-2 py-2">
+          <div className="flex border-2 border-double border-[#74C29D] rounded-2xl items-center justify-center mt-2 px-2 py-2 ">
             <p className="bg-[#179B5A] rounded-xl w-15 h-9 flex items-center justify-center text-white font-bold">
               {agenda.hari}
             </p>
