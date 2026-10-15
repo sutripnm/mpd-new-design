@@ -2,7 +2,7 @@ export const kajianDataDummy = [
   {
     id: 1,
     hari: "Senin",
-    judul: "Kajian Kitab Riyadhus Shalihin",
+    judul: "Kitab Riyadhus Shalihin",
     ustadz: "Ustadz Dr. H. Ahmad Fauzi, M.Ag.",
     waktu: "Ba'da Maghrib - Isya",
     tempat: "MPD (Ruang Utama)",
@@ -11,7 +11,7 @@ export const kajianDataDummy = [
   {
     id: 2,
     hari: "Selasa",
-    judul: "Fiqih Muamalah Kontemporer",
+    judul: "Fiqih Muamalah",
     ustadz: "Ustadz Rahmat Hidayat, Lc.",
     waktu: "Ba'da Maghrib - Isya",
     tempat: "MPD (Ruang Utama)",
@@ -29,7 +29,7 @@ export const kajianDataDummy = [
   {
     id: 4,
     hari: "Kamis",
-    judul: "Kajian Kitab Bulughul Maram",
+    judul: "Kitab Bulughul Maram",
     ustadz: "Ustadz Zaidan Abdullah, S.Pd.I.",
     waktu: "Ba'da Maghrib - Isya",
     tempat: "MPD (Ruang Utama)",
@@ -38,7 +38,7 @@ export const kajianDataDummy = [
   {
     id: 5,
     hari: "Jumat",
-    judul: "Kajian Kitab At-Tauhid",
+    judul: "Kitab At-Tauhid",
     ustadz: "Ustadz Fadhil Pratama, M.Ud.",
     waktu: "Ba'da Maghrib - Isya",
     tempat: "MPD (Ruang Utama)",
