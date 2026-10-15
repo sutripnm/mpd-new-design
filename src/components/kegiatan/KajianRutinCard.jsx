@@ -2,10 +2,6 @@ function KajianRutinCard({ kajian }) {
 
   return (
     <article className="relative flex flex-col items-center justify-center px-3 py-3 mb-5">
-{/* 
-        <p className="flex items-center justify-center absolute top-3 right-3 bg-[#179B5A] w-15 h-9 rounded-2xl text-white">
-          {kajian.hari}
-        </p> */}
 
       <div className="rounded-full w-[80px] h-[80px] overflow-hidden">
         <img className="object-cover w-full h-full"

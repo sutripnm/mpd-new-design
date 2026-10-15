@@ -1,0 +1,48 @@
+export const agendaDataDummy = [
+  {
+    id: 1,
+    tanggal: "16 Oktober 2026",
+    hari: "Jumat",
+    judul: "Shalat Jum'at Mubarak Masjid Pangeran Diponegoro",
+    khotib: "Prof. Dr. H. M. Amin Syukur, M.A.",
+    imam: "Ustadz H. Ahmad Zaini, S.Pd.I.",
+    waktu: "11:30 - Selesai",
+    tempat: "MPD (Ruang Utama)",
+    gambar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
+  },
+  {
+    id: 2,
+    tanggal: "23 Oktober 2026",
+    hari: "Jumat",
+    judul: "Shalat Jum'at Mubarak Masjid Pangeran Diponegoro",
+    khotib: "Dr. H. Multazam Ahmad, M.Ag.",
+    imam: "Ustadz M. Fathurrohman, Lc.",
+    waktu: "11:30 - Selesai",
+    tempat: "MPD (Ruang Utama)",
+    gambar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
+  },
+  {
+    id: 3,
+    tanggal: "30 Oktober 2026",
+    hari: "Jumat",
+    judul: "Shalat Jum'at Mubarak Masjid Pangeran Diponegoro",
+    khotib: "Ustadz Dr. H. Abdul Malik, M.Si.",
+    imam: "Ustadz Zaidan Abdullah, S.Pd.I.",
+    waktu: "11:30 - Selesai",
+    tempat: "MPD (Ruang Utama)",
+    gambar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200",
+  },
+  {
+    id: 4,
+    tanggal: "6 November 2026",
+    hari: "Jumat",
+    judul: "Shalat Jum'at Mubarak Masjid Pangeran Diponegoro",
+    khotib: "K.H. Fahruddin Faiz, M.Ag.",
+    imam: "Ustadz H. Ahmad Zaini, S.Pd.I.",
+    waktu: "11:30 - Selesai",
+    tempat: "MPD (Ruang Utama)",
+    gambar: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=200",
+  },
+];
+
+export default agendaDataDummy;

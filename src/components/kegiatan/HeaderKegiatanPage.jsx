@@ -4,8 +4,6 @@ import mpdlogo2 from "../../assets/mpd-logo2.png"
 function HeaderKegiatanPage() {
   return (
     <main>
-      <Navbar />
-
       <section className="">
         <div className="bg-[#179B5A] h-50 text-white flex items-center justify-center gap-3">
           

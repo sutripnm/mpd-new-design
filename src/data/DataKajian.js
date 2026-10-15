@@ -44,6 +44,24 @@ export const kajianDataDummy = [
     tempat: "MPD (Ruang Utama)",
     gambar: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=200",
   },
+  {
+    id: 6,
+    hari: "Sabtu",
+    judul: "Kajian Tazkiyatun Nafs",
+    ustadz: "Ustadz Luqmanul Hakim, S.Psi.",
+    waktu: "Ba'da Subuh - Selesai",
+    tempat: "MPD (Ruang Utama)",
+    gambar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200",
+  },
+  {
+    id: 7,
+    hari: "Ahad",
+    judul: "Sirah Nabawiyah & Tematik",
+    ustadz: "Ustadz Hilman Anhari, Lc.",
+    waktu: "Ba'da Subuh - Selesai",
+    tempat: "MPD (Ruang Utama)",
+    gambar: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=200",
+  },
 ];
 
 export default kajianDataDummy;

@@ -5,7 +5,7 @@ import "../styles/navbar.css"
 
 function Navbar() {
   return (
-    <header className="border-b-1 border-gray-350">
+    <header className="border-b-1 border-gray-350 sticky top-0 bg-white z-50">
       <nav className="flex pt-2 gap-3 max-w-7/10 mx-auto">
         <div className="flex grow justify-between items-center mx-auto-">
 
