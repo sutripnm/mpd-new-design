@@ -38,9 +38,9 @@ function Navbar() {
               <span className={isActive === true ? "active" : ""}>Kegiatan</span>
             )}
             </NavLink>
-            <NavLink to="/ziwaf">
+            <NavLink to="/sabil">
             {({ isActive }) => (
-              <span className={isActive === true ? "active" : ""}>ZIWAF</span>
+              <span className={isActive === true ? "active" : ""}>SABIL</span>
             )}
             </NavLink>
             <NavLink to="/tentang">
