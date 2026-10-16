@@ -4,15 +4,15 @@ import kajianDataDummy from "../../data/DataKajian";
 function KajianRutinSection() {
 
   return (
-    <section className="flex flex-col items-center justify-center gap-5 bg-[#ebf9f2] h-full">
+    <section className="flex flex-col items-center justify-center gap-5 bg-bg-2 h-full">
       <h2 
-        className="bg-[#179B5A] w-50 h-12 flex justify-center 
+        className="bg-primary w-50 h-12 flex justify-center 
         items-center rounded-xl text-white font-bold mt-5"
         >
           Kajian Rutin Harian
       </h2>
 
-      <div className="bg-[#bef2da] h-22 w-full max-w-100 text-center rounded-sm">
+      <div className="bg-bg-section h-22 w-full max-w-100 text-center rounded-sm">
         <p className="italic px-2 py-2">
           "Barang siapa menempuh suatu jalan untuk mencari ilmu, 
           maka Allah akan memudahkan baginya jalan menuju surga."
@@ -24,7 +24,7 @@ function KajianRutinSection() {
         {kajianDataDummy.map((item) => (
           <div
             key={item.id} 
-            className="border-6 border-double border-[#74C29D] rounded-4xl mb-5 w-full max-w-[280px] h-[250px]" >
+            className="border-6 border-double border-secondary rounded-4xl mb-5 w-full max-w-[280px] h-[250px]" >
         
             <KajianRutinCard 
               kajian={item}

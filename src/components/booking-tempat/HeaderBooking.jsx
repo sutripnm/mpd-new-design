@@ -1,11 +1,10 @@
-import Navbar from "../Navbar";
 import mpdlogo2 from "../../assets/mpd-logo2.png"
 
 function HeaderBooking() {
   return (
     <main>
       <section className="">
-        <div className="bg-[#179B5A] h-full min-h-50 text-white flex flex-col lg:flex-row items-center justify-center gap-3">
+        <div className="bg-primary h-full min-h-50 text-white flex flex-col lg:flex-row items-center justify-center gap-3">
           
           <div className="">
             <img 

@@ -15,12 +15,12 @@ function FormBooking() {
         </div>
 
         {/* ======================Right Card====================== */}
-        <form className="grid md:grid-cols-2 min-h-[400px] min-w-[400px] bg-[#74C29D] box-form rounded-2xl px-5 py-5 text-white">
+        <form className="grid md:grid-cols-2 min-h-[400px] min-w-[400px] bg-secondary box-form rounded-2xl px-5 py-5 text-white">
           <h3 className="col-span-2 ml-5 mb-5 text-xl">Lengkapi Data Pemesan</h3>
           <div className="px-5 flex flex-col">
             <label htmlFor="Nama">Nama Lengkap</label>
             <input 
-              className="w-[100%] rounded-sm bg-white px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#179B5A]"
+              className="w-[100%] rounded-sm bg-white px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
               type="text" 
               id="Nama"
             />
@@ -28,7 +28,7 @@ function FormBooking() {
             <div className="px-5 flex flex-col gap-y-2">
             <label htmlFor="No.Wa">No. WhatsApp</label>
             <input 
-              className="w-[100%] rounded-sm bg-white px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#179B5A]"
+              className="w-[100%] rounded-sm bg-white px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
               type="tel" 
               id="No.Wa"
             />
@@ -36,7 +36,7 @@ function FormBooking() {
           <div className="px-5 flex flex-col col-span-2 ">
             <label htmlFor="Email">Alamat Email</label>
             <input 
-              className="w-[100%] rounded-sm bg-white px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#179B5A]"
+              className="w-[100%] rounded-sm bg-white px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
               type="email" 
               id="Email"
             />
@@ -44,7 +44,7 @@ function FormBooking() {
           <div className="px-5 flex flex-col col-span-2">
             <label htmlFor="Tanggal">Tanggal yang dipilih</label>
             <input 
-              className="w-[100%] rounded-sm bg-white px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#179B5A]"
+              className="w-[100%] rounded-sm bg-white px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
               type="" 
               id="Tanggal"
               placeholder="Silahkan pilih tanggal disamping"
@@ -53,7 +53,7 @@ function FormBooking() {
           <div className="px-5 flex flex-col col-span-2">
             <label htmlFor="Catatan">Catatan Tambahan</label>
             <textarea 
-              className="w-[100%] rounded-sm bg-white px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#179B5A]"
+              className="w-[100%] rounded-sm bg-white px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
               htmlFor="Catatan"
               placeholder="Jenis acara, estimasi peserta, atau request khusus ..."
               id="Catatan"
@@ -61,7 +61,7 @@ function FormBooking() {
 
             </textarea>
           </div>
-          <button className="bg-[#179B5A] rounded-md col-span-2 py-2 mx-5 my-5">
+          <button className="bg-primary rounded-md col-span-2 py-2 mx-5 my-5">
             Ajukan Booking Sekarang
           </button>
 

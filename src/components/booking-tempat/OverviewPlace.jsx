@@ -41,7 +41,7 @@ function OverviewPlace() {
 
         <div className="desc-overview flex-1 min-w-0 flex flex-col gap-3">
           <h3 className="font-bold">Filter Tempat</h3>
-          <h4 className="text-[#179B5A] text-2xl">Fasilitas</h4>
+          <h4 className="text-primary text-2xl">Fasilitas</h4>
           <p className="text-justify">Dengan luas area lebih dari 500m², 
               ruangan ini mampu menampung hingga 800 tamu 
               undangan. Dilengkapi dengan sistem pencahayaan 
@@ -59,7 +59,7 @@ function OverviewPlace() {
             <li>Projector</li>
           </ol>
 
-          <button className="bg-[#179B5A] w-45 h-12 rounded-2xl xl:mt-auto text-white">Booking Sekarang</button>
+          <button className="bg-primary w-45 h-12 rounded-2xl xl:mt-auto text-white">Booking Sekarang</button>
         </div>
       </section>
     </main>
