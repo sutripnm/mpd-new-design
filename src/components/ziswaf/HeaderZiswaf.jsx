@@ -1,6 +1,6 @@
 import mpd1 from "../../assets/mpd-1.jpg"
 
-function HeaderSabil() {
+function HeaderZiswaf() {
   return (
     <main>
       <section className="">
@@ -17,8 +17,8 @@ function HeaderSabil() {
           </div>
 
           <div className="flex flex-col items-center text-xs lg:text-sm text-center lg:text-left relative z-10 gap-3">
-            <h2 className="text-xl lg:text-6xl font-bold">SABIL CENTER MPD</h2>
-            <p className="italic text-lg">Sedekah, Amal, Berbagi, Infaq, & Layanan Zakat/Wakaf</p>
+            <h2 className="text-xl lg:text-6xl font-bold">ZISWAF CENTER MPD</h2>
+            <p className="italic text-lg">Zakat, Infaq, Sedekah & Wakaf</p>
           </div>
 
         </div>
@@ -27,4 +27,4 @@ function HeaderSabil() {
   )
 }
 
-export default HeaderSabil;
+export default HeaderZiswaf;

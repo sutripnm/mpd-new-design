@@ -12,7 +12,7 @@ function ServiceCard() {
           <p>Sewa Tempat</p>
         </div>
         <div className="service-card">
-          <p>SABIL</p>
+          <p>ZISWAF</p>
         </div>
         <div className="service-card">
           <p>Jumat Berkah</p>
