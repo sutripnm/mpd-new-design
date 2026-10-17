@@ -1,21 +1,37 @@
-function WakafCard() {
+function WakafCard({ wakaf, openWakaf, handleToggle}) {
   return (
-    <main className="flex flex-col items-center justify-center my-5 gap-6 mt-500">
-      <h2 className="flex text-2xl font-bold">
-        Wakaf Unggulan
-      </h2>
+    <article className="flex items-center justify-center my-5">
+      <section className="flex flex-col lg:flex-row items-center justify-center px-3">
+        <div 
+          className="flex flex-col items-center justify-center cover-image bg-secondary rounded-2xl
+                      h-[850px] w-[400px] px-5">
+          <img src={wakaf.cover} alt="" />
+          <div className="flex flex-col items-center justify-center">
 
-      <section className="flex flex-wrap lg:flex-row items-center justify-center w-2/4 gap-5 bg-amber-950">
-        <div className="bg-amber-500 h-100 w-90 rounded-2xl">
-        </div>
-        <div className="bg-amber-500 h-100 w-90 rounded-2xl">
-        </div>
-        <div className="bg-amber-500 h-100 w-90 rounded-2xl">
-        </div>
-        <div className="bg-amber-500 h-100 w-90 rounded-2xl">
+            <h2>{wakaf.title}</h2>
+            <p className="text-justify">{wakaf.description}</p>
+          </div>
+
+
+          {openWakaf && (
+            <div>
+              <p>{wakaf.bank}</p>
+              <p>{wakaf.accountNumber}</p>
+              <p>{wakaf.accountName}</p>
+              <img src={wakaf.image} alt="" />
+            </div>
+          )}
+          <div>
+            <button 
+            className="bg-primary rounded-2xl h-10 w-38"
+            onClick={() => handleToggle(wakaf.id)}
+            >
+              {openWakaf ? ("Barakallah Fiikum") : ("Salurkan Ziswaf")}
+            </button>
+          </div>
         </div>
       </section>
-    </main>
+    </article>
   )
 }
 
